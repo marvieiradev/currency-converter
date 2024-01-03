@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--script src="https://kit.fontawesome.com/8e4a25e86e.js" crossorigin="anonymous"></script-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <h2>Conversor de Moedas</h2>
+        <form action="">
+            <div class="amount">
+                <p>Valor</p>
+                <input type="text" value="1">
+            </div>
+            <div class="converter-bor">
+                <div class="from">
+                    <p>Converter de</p>
+                    <div class="select-input">
+                        <img src="https://flagsapi.com/BE/flat/48.png">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="reverse">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+                <div class="to">
+                    <p>Para</p>
+                    <div class="select-input">
+                        <img src="https://flagsapi.com/US/flat/48.png">
+                        <select></select>
+                    </div>
+                </div>
+
+                <dvi class="result">Obtendo taxa de conversão...</dvi>
+                <button>Converter</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
