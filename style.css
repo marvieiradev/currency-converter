@@ -24,7 +24,7 @@ body::before {
     position: absolute;
     width: 120px;
     height: 120px;
-    background-color: #ed2ff0;
+    background-color: #ff009d;
     left: 15%;
     top: 20%;
     filter: blur(150px);
@@ -35,7 +35,7 @@ body::after {
     position: absolute;
     width: 120px;
     height: 120px;
-    background-color: #22a8cd;
+    background-color: #00c8ff;
     left: 80%;
     top: 74%;
     filter: blur(150px);
@@ -81,12 +81,12 @@ body::after {
 }
 
 .container form input :hover {
-    border: 1px solid #675afe;
+    border: 1px solid #00c8ff;
 }
 
 .container form input :focus {
     padding: 0 14px;
-    border: 1px solid #675afe;
+    border: 1px solid #00c8ff;
 }
 
 .container form .converter-box {
@@ -116,7 +116,7 @@ body::after {
 }
 
 .container .converter-box .select-input:hover {
-    border: 1px solid #675afe;
+    border: 1px solid #00c8ff;
 }
 
 .container .converter-box .select-input img {
@@ -145,7 +145,7 @@ body::after {
 }
 
 .container .converter-box .reverse:hover {
-    color: #675afe;
+    color: #00c8ff;
 }
 
 .container form .result {
@@ -165,5 +165,6 @@ body::after {
 }
 
 .container form button:hover {
-    background: #675afe;
+    background: #00c8ff;
+    color: #000531;
 }
